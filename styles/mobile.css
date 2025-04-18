@@ -1,1 +1,10 @@
 @import url(/styles/variaveis.css);
+
+/* Estilização do body */
+body {
+    font-family: var(--space);
+    background-color: var(--grey-50);
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+}
