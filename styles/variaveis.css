@@ -1,0 +1,27 @@
+/* Importação */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    /* Fonte */
+    --space: 'Space Mono', sans-serif;
+
+    /* Cores */
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --grey-50: #F3F9FA;
+    --grey-200: #C5E4E7;
+    --grey-300: #9EBBBD;
+    --grey-400: #7F9D9F;
+    --grey-500: #5E7A7D;
+    --grey-550: #547878;
+    --grey-600: #3D6666;
+
+    --green-200: #9FE8DF;
+    --green-400: #26C3AE;
+    --green-750: #0D686D;
+    --green-800: #085C61;
+    --green-900: #00474B;
+
+    --orange-400: #E17052;
+}
