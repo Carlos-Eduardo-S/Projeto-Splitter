@@ -4,59 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Mentor | Tip calculator app</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="tablet.css">
-    <link rel="stylesheet" href="desktop.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <link rel="stylesheet" href="/styles/tablet.css">
+    <link rel="stylesheet" href="/styles/desktop.css">
+    <script type="module" src="/js/script.js"></script>
 </head>
 <body>
-    <img src="/img/logo.svg" alt="Logo S P L I T T E R">
-    <div>
-        <div>
-            <p>Bill</p>
-            <div>
+    <img class="img__logo" src="/img/logo.svg" alt="Logo S P L I T T E R">
+    <div class="container">
+        <div class="container__bill">
+            <p class="bill__titulo">Bill</p>
+            <div class="bill__input">
                 <img src="/img/icon-dollar.svg" alt="Icone de Dólar">
-                <input dir="rtl" type="text" inputmode="numeric" placeholder="0">
+                <input class="bill__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
             </div>
         </div>
 
-        <div>
-            <p>Select Tip %</p>
-            <div>
-                <button>5%</button>
-                <button>10%</button>
-                <button>15%</button>
-                <button>25%</button>
-                <button>50%</button>
-                <button>Custom</button>
+        <div class="container__tip">
+            <p class="tip__titulo">Select Tip %</p>
+            <div class="tip__buttons">
+                <button class="button__5">5%</button>
+                <button class="button__10">10%</button>
+                <button class="button__15">15%</button>
+                <button class="button__25">25%</button>
+                <button class="button__50">50%</button>
+                <button class="button__custom">Custom</button>
             </div>
         </div>
 
-        <div>
-            <p>Number of People</p>
-            <div>
+        <div class="container__people">
+            <p class="people__titulo">Number of People</p>
+            <div class="people__input">
                 <img src="/img/icon-person.svg" alt="Icone de Pessoa">
-                <input dir="rtl" type="text" inputmode="numeric" placeholder="0">
+                <input class="people__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
             </div>
         </div>
 
-        <div>
-            <div>
-                <p>Tip Amount</p>
-                <p>/ person</p>
-                <div>
-                    <p>$0.00</p>
+        <div class="container__result">
+            <div class="result__amount">
+                <div class="amount__text">
+                    <p class="amount">Tip Amount</p>
+                    <p class="per__person">/ person</p>
+                </div>
+                <div class="result__value">
+                    <p class="value">$0.00</p>
                 </div>
             </div>
-            <div>
-                <p>Tip Amount</p>
-                <p>/ person</p>
-                <div>
-                    <p>$0.00</p>
+            <div class="result__total">
+                <div class="amount__text">
+                    <p class="total">Total</p>
+                    <p class="per__person">/ person</p>
+                </div>
+                <div class="result__value">
+                    <p class="value">$0.00</p>
                 </div>
             </div>
-            <div>
-                <button>RESET</button>
+            <div class="reset__button">
+                <button class="reset">RESET</button>
             </div>
         </div>
     </div>
