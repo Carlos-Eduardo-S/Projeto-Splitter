@@ -1,1 +1,274 @@
-@import url(/styles/variaveis.css);
+@import url(/styles/variaveis.css);@import url(/styles/variaveis.css);
+
+body {
+    background-color: var(--grey-200);
+    font-family: var(--space);
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 23.50rem) and (max-width: 48rem) {
+    .img__logo {
+        display: flex;
+        justify-self: center;
+        padding-top: 3.125rem;
+        padding-bottom: 2.554rem;
+        width: 5.416rem;
+    }
+
+    .container {
+        background-color: var(--white);
+        padding: 3rem 5rem;
+        border-radius: 2rem;
+        width: 28rem;
+        margin-bottom: 5rem;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Container Bill */
+    .container__bill {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .bill__titulo {
+        line-height: 24px;
+        font-weight: 600;
+        color: var(--grey-500);
+    }
+
+    .bill__input {
+        padding-bottom: 2rem;
+    }
+
+    .bill__input img {
+        position: absolute;
+        top: 237px;
+        left: 180px;
+    }
+
+    .bill__campo {
+        width: 26.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--grey-900);
+        background-color: var(--grey-50);
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 1rem;
+    }
+
+    .bill__campo::placeholder {
+        font-family: var(--space);
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: .5rem 0rem;
+        color: var(--grey-300);
+    }
+
+    /* Container Select Tip */
+    .container__tip {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-bottom: 2rem;
+    }
+
+    .tip__titulo {
+        line-height: 24px;
+        font-weight: 600;
+        color: var(--grey-500);
+    }
+
+    .tip__buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .button__5 {
+        background-color: var(--green-900);
+        color: var(--white);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: end;
+    }
+
+    .button__10 {
+        background-color: var(--green-900);
+        color: var(--white);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: center;
+    }
+
+    .button__15 {
+        background-color: var(--green-900);
+        color: var(--white);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: start;
+    }
+
+    .button__25 {
+        background-color: var(--green-900);
+        color: var(--white);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: end;
+    }
+
+    .button__50 {
+        background-color: var(--green-900);
+        color: var(--white);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: center;
+    }
+
+    .button__custom {
+        background-color: var(--grey-50);
+        color: var(--grey-550);
+        font-family: var(--space);
+        font-size: 1.5rem;
+        line-height: 36px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        width: 8.854rem;
+        height: 3rem;
+        justify-self: start;
+    }
+
+    /* Container Number of People */
+    .container__people {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        padding-bottom: 2rem;
+    }
+
+    .people__titulo {
+        line-height: 24px;
+        font-weight: 600;
+        color: var(--grey-500);
+    }
+
+    .people__input {
+        padding-bottom: 2rem;
+    }
+
+    .people__input img {
+        position: absolute;
+        bottom: 55px;
+        left: 180px;
+    }
+
+    .people__campo {
+        width: 26.5rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: var(--grey-900);
+        background-color: var(--grey-50);
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 1rem;
+    }
+
+    .people__campo::placeholder {
+        font-family: var(--space);
+        font-weight: 600;
+        font-size: 1.5rem;
+        padding: .5rem 0rem;
+        color: var(--grey-300);
+    }
+
+    /* Container Result */
+    .container__result {
+        background-color: var(--green-900);
+        padding: 1.5rem;
+        color: var(--white);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .result__amount {
+        display: flex;
+        gap: 12.7rem;
+        align-items: center;
+    }
+
+    .amount {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .per__person {
+        font-size: .813rem;
+        color: var(--grey-400);
+    }
+
+    .result__total {
+        display: flex;
+        gap: 14.8rem;
+        align-items: center;
+    }
+
+    .total {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .value {
+        color: var(--green-400);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .reset {
+        width: 25rem;
+        height: 3rem;
+        font-family: var(--space);
+        font-size: 1.25rem;
+        color: var(--green-800);
+        background-color: var(--green-750);
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+    }
+}

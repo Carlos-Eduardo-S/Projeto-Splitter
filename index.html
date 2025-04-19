@@ -13,55 +13,59 @@
 <body>
     <img class="img__logo" src="/img/logo.svg" alt="Logo S P L I T T E R">
     <div class="container">
-        <div class="container__bill">
-            <p class="bill__titulo">Bill</p>
-            <div class="bill__input">
-                <img src="/img/icon-dollar.svg" alt="Icone de Dólar">
-                <input class="bill__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
-            </div>
-        </div>
-
         <div class="container__tip">
-            <p class="tip__titulo">Select Tip %</p>
-            <div class="tip__buttons">
-                <button class="button__5">5%</button>
-                <button class="button__10">10%</button>
-                <button class="button__15">15%</button>
-                <button class="button__25">25%</button>
-                <button class="button__50">50%</button>
-                <button class="button__custom">Custom</button>
+            <div class="container__bill">
+                <p class="bill__titulo">Bill</p>
+                <div class="bill__input">
+                    <img src="/img/icon-dollar.svg" alt="Icone de Dólar">
+                    <input class="bill__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
+                </div>
+            </div>
+
+            <div class="container__tip">
+                <p class="tip__titulo">Select Tip %</p>
+                <div class="tip__buttons">
+                    <button class="button__5">5%</button>
+                    <button class="button__10">10%</button>
+                    <button class="button__15">15%</button>
+                    <button class="button__25">25%</button>
+                    <button class="button__50">50%</button>
+                    <button class="button__custom">Custom</button>
+                </div>
+            </div>
+
+            <div class="container__people">
+                <p class="people__titulo">Number of People</p>
+                <div class="people__input">
+                    <img src="/img/icon-person.svg" alt="Icone de Pessoa">
+                    <input class="people__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
+                </div>
             </div>
         </div>
 
-        <div class="container__people">
-            <p class="people__titulo">Number of People</p>
-            <div class="people__input">
-                <img src="/img/icon-person.svg" alt="Icone de Pessoa">
-                <input class="people__campo" dir="rtl" type="text" inputmode="numeric" placeholder="0">
-            </div>
-        </div>
-
-        <div class="container__result">
-            <div class="result__amount">
-                <div class="amount__text">
-                    <p class="amount">Tip Amount</p>
-                    <p class="per__person">/ person</p>
+        <div class="container__total">
+            <div class="container__result">
+                <div class="result__amount">
+                    <div class="amount__text">
+                        <p class="amount">Tip Amount</p>
+                        <p class="per__person">/ person</p>
+                    </div>
+                    <div class="result__value">
+                        <p class="value">$0.00</p>
+                    </div>
                 </div>
-                <div class="result__value">
-                    <p class="value">$0.00</p>
+                <div class="result__total">
+                    <div class="amount__text">
+                        <p class="total">Total</p>
+                        <p class="per__person">/ person</p>
+                    </div>
+                    <div class="result__value">
+                        <p class="value">$0.00</p>
+                    </div>
                 </div>
-            </div>
-            <div class="result__total">
-                <div class="amount__text">
-                    <p class="total">Total</p>
-                    <p class="per__person">/ person</p>
+                <div class="reset__button">
+                    <button class="reset">RESET</button>
                 </div>
-                <div class="result__value">
-                    <p class="value">$0.00</p>
-                </div>
-            </div>
-            <div class="reset__button">
-                <button class="reset">RESET</button>
             </div>
         </div>
     </div>
