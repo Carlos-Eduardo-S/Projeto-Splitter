@@ -66,6 +66,17 @@ body {
         border: none;
         border-radius: 5px;
         padding: .5rem 1rem;
+        outline: none;
+    }
+
+    .sucess:focus {
+        outline: none;
+        border: 2px solid var(--green-400);
+    }
+
+    .error:focus {
+        outline: none;
+        border: 2px solid var(--orange-400);
     }
 
     .bill__campo::placeholder {
@@ -110,6 +121,11 @@ body {
         justify-self: end;
     }
 
+    .button__5:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__10 {
         background-color: var(--green-900);
         color: var(--white);
@@ -122,6 +138,11 @@ body {
         width: 7.25rem;
         height: 3rem;
         justify-self: center;
+    }
+
+    .button__10:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
     }
 
     .button__15 {
@@ -138,6 +159,11 @@ body {
         justify-self: start;
     }
 
+    .button__15:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__25 {
         background-color: var(--green-900);
         color: var(--white);
@@ -152,6 +178,11 @@ body {
         justify-self: end;
     }
 
+    .button__25:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__50 {
         background-color: var(--green-900);
         color: var(--white);
@@ -164,6 +195,11 @@ body {
         width: 7.25rem;
         height: 3rem;
         justify-self: center;
+    }
+
+    .button__50:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
     }
 
     .button__custom {
@@ -194,6 +230,18 @@ body {
         color: var(--grey-500);
     }
 
+    .people__texto {
+        display: flex;
+        align-items: center;
+        gap: 6.3rem;
+    }
+
+    .people__error {
+        display: none;
+        color: var(--orange-400);
+        font-weight: 600;
+    }
+
     .people__input {
         padding-bottom: 2rem;
     }
@@ -213,6 +261,7 @@ body {
         border: none;
         border-radius: 5px;
         padding: .5rem 1rem;
+        outline: none;
     }
 
     .people__campo::placeholder {
@@ -280,5 +329,9 @@ body {
         font-weight: 600;
         border: none;
         border-radius: 5px;
+    }
+
+    .reset:hover {
+        background-color: var(--green-400);
     }
 }

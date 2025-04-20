@@ -61,6 +61,16 @@ body {
         padding: .5rem 1rem;
     }
 
+    .sucess:focus {
+        outline: none;
+        border: 2px solid var(--green-400);
+    }
+
+    .error:focus {
+        outline: none;
+        border: 2px solid var(--orange-400);
+    }
+
     .bill__campo::placeholder {
         font-family: var(--space);
         font-weight: 600;
@@ -103,6 +113,11 @@ body {
         justify-self: end;
     }
 
+    .button__5:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__10 {
         background-color: var(--green-900);
         color: var(--white);
@@ -115,6 +130,11 @@ body {
         width: 8.854rem;
         height: 3rem;
         justify-self: center;
+    }
+
+    .button__10:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
     }
 
     .button__15 {
@@ -131,6 +151,11 @@ body {
         justify-self: start;
     }
 
+    .button__15:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__25 {
         background-color: var(--green-900);
         color: var(--white);
@@ -145,6 +170,11 @@ body {
         justify-self: end;
     }
 
+    .button__25:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
+    }
+
     .button__50 {
         background-color: var(--green-900);
         color: var(--white);
@@ -157,6 +187,11 @@ body {
         width: 8.854rem;
         height: 3rem;
         justify-self: center;
+    }
+
+    .button__50:hover {
+        background-color: var(--green-400);
+        color: var(--green-900);
     }
 
     .button__custom {
@@ -185,6 +220,18 @@ body {
         line-height: 24px;
         font-weight: 600;
         color: var(--grey-500);
+    }
+
+    .people__texto {
+        display: flex;
+        align-items: center;
+        gap: 6.3rem;
+    }
+
+    .people__error {
+        display: none;
+        color: var(--orange-400);
+        font-weight: 600;
     }
 
     .people__input {
@@ -229,7 +276,7 @@ body {
 
     .result__amount {
         display: flex;
-        gap: 12.7rem;
+        gap: 12.8rem;
         align-items: center;
     }
 
@@ -270,5 +317,9 @@ body {
         font-weight: 600;
         border: none;
         border-radius: 5px;
+    }
+
+    .reset:hover {
+        background-color: var(--green-400);
     }
 }
