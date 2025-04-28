@@ -1,4 +1,6 @@
 let inputBill = document.querySelector('.bill__campo');
+let peopleNumber = document.querySelector('.people__campo');
+let peopleError = document.querySelector('.people__error')
 let buttonCustom = document.querySelector('.button__custom');
 let buttonReset = document.querySelector('.reset');
 let button5 = document.querySelector('.button__5');
@@ -97,9 +99,18 @@ buttonCustom.addEventListener('click', function() {
     buttonReset.style.backgroundColor = '#0D686D';
 });
 
-/*if (inputBill.value === '0' || inputBill.value === '') {
+/*if (inputBill.value == '0' || inputBill.value === '') {
     inputBill.classList.add('error');
     alert('Please enter a valid bill amount.');
 } else {
     inputBill.classList.add('sucess');
+}*/
+
+/*if (peopleNumber.value == '0' || peopleNumber.value === '') {
+    peopleError.style.display = 'block';
+    peopleNumber.classList.add('error');
+}
+else {
+    peopleError.style.display = 'none';
+    peopleNumber.classList.add('sucess');
 }*/
